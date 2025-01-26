@@ -26,7 +26,7 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-              {`I'm`} a Freelance Full Stack Developer, WordPress Developer and Graphics Designer based in Lahore,
+              {`I'm`} a Freelance Full Stack and WordPress Developer and Graphics Designer based in 
               Pakistan. I strives to build immersive and beautiful web
               applications through carefully crafted code and user-centric
               design.
@@ -35,78 +35,61 @@ const About = () => {
           <div className="row col-xl-6 col-lg-6 col-md-12">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <ul className="list-1">
-                <li>
+                <br/><li>
                   <h6>
-                    <span className="font-weight-600">First Name:</span>
+                    <span className="font-weight-600">First Name</span>
                     Muhammad Khalil
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Last Name:</span>
-                    Ur Rehman
+                    <span className="font-weight-600">Nationality</span>
+                    Pakistan
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Birthdate:</span>12 OCT
-                    1994
+                    <span className="font-weight-600">Experience</span>1 year
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Nationality:</span>
-                    Pakistani
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Experience:</span>1 year
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Address:</span>
-                    Lahore, Pakistan
+                    <span className="font-weight-600">Address</span>
+                    Pakistan
                   </h6>
                 </li>
               </ul>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <ul className="list-2">
-                <li>
+                {/* <li>
                   <h6>
                     <span className="font-weight-600">Freelance:</span>
                     Available
                   </h6>
-                </li>
+                </li> */}
                 <li><br/>
                   <h6>
-                    <span className="font-weight-600">Languages:</span>
-                    Urdu, English
+                    <span className="font-weight-600">Languages</span>
+                    English
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone:</span>+92-322-9122256
+                    <span className="font-weight-600">Email</span>
+                    <a href="mailto:khaleelr4@gmail.com" className="text-white"><b>khaleelr4@gmail.com</b></a>
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Email:</span>
-                    khaleelr4@gmail.com
+                    <span className="font-weight-600">Github</span>
+                    <a href="https://github.com/khaleelr4" className="text-white" target="_blank" rel="noopener noreferrer"><b>khaleelr4</b></a><br/>
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Github:</span>
-                    <a href="https://github.com/khaleelr4" className="text-white" target="_blank" rel="noopener noreferrer">khaleelr4</a><br/>
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Linkedin:</span>
-                    <a href="https://www.linkedin.com/in/muhammad-khalil-ur-rehman-031643b0/" className="text-white" target="_blank" rel="noopener noreferrer">Muhammad Khalil Ur Rehman</a>
+                    <span className="font-weight-600">Linkedin</span>
+                    <a href="https://www.linkedin.com/in/muhammad-khalil-ur-rehman-031643b0/" className="text-white" target="_blank" rel="noopener noreferrer"><b>Muhammad Khalil Ur Rehman</b></a>
                   </h6>
                 </li>
               </ul>
@@ -146,7 +129,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2017 - 2019
+                        2019
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Marketeer
@@ -156,9 +139,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                      They partner with our customers to help them navigate constant disruption, seize growth opportunities and enable the continuous transformative change they need for today’s business environment.
                       </p>
                     </div>
                   </div>
@@ -182,9 +163,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                      They offer a wide range of customizable call center services designed to meet the diverse needs of businesses.
                       </p>
                     </div>
                   </div>
@@ -208,35 +187,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Item Ends */}
-                {/* Item Starts */}
-                <div className="item">
-                  <span className="bullet" />
-                  <div className="card">
-                    <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2025
-                      </span>
-                      <span className="d-block font-weight-400 uppercase">
-                        WordPress Developer
-                        <span className="separator" />
-                        <span className="font-weight-700">seamlessSolutionz.com</span>
-                      </span>
-                    </div>
-                    <div className="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                      The development of reliable and scalable IT solutions, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.
                       </p>
                     </div>
                   </div>
@@ -434,11 +385,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
+                <span className="percent" style={{ right: "calc100% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -450,11 +401,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={85}
-                  style={{ width: "85%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
-                  85%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -466,11 +417,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -482,11 +433,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -498,11 +449,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -514,11 +465,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={45}
-                  style={{ width: "45%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(55% - 21px)" }}>
-                  45%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -530,11 +481,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -546,11 +497,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={40}
-                  style={{ width: "40%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(60% - 21px)" }}>
-                  40%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -562,11 +513,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={40}
-                  style={{ width: "40%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(60% - 21px)" }}>
-                  40%
+                <span className="percent" style={{ right: "calc100% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -578,11 +529,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={40}
-                  style={{ width: "40%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(60% - 21px)" }}>
-                  40%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -594,11 +545,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -610,11 +561,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -626,11 +577,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -642,11 +593,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
+                <span className="percent" style={{ right: "calc(1% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
